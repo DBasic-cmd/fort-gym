@@ -1,0 +1,167 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black !important;
+}
+
+main{
+  background-image: url('image/pic10.jpg');
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.8);
+   padding: 40px 0px;
+   height: 100%;
+  width: auto;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+
+.box{
+  padding-top: 10%;
+  text-align: center;
+}
+
+.box h1{
+  
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 150px;
+  color: white;
+  margin-left:-8px;
+}
+.box p{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  
+  
+
+}
+.box p a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.box p a:hover{
+  text-decoration-line: none;
+color:#f37121;
+}
+
+.navbar{
+  background: none;
+  z-index: 1500;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-link:hover{
+  color: #F37121 !important;
+}
+.scrolled {
+  background-color: black;
+  box-shadow: 5px 10px 8px -4px rgba(0,0,0,0.26);
+-webkit-box-shadow: 5px 10px 8px -4px rgba(0,0,0,0.26);
+-moz-box-shadow: 5px 10px 8px -4px rgba(0,0,0,0.26);
+}
+
+
+.modal{
+  background: rgba(0,0,0,0.8);
+}
+.modal-content{
+  background:  none !important;
+  margin-top: 10em;
+  border: none;
+}
+.modal .btn{
+  background:  #F37121;
+  font-size: 200%;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px 100px;
+}
+.modal h1{
+  font-weight: bolder; 
+  margin-left: 20%;
+  color: #F37121 !important;
+  border-bottom: none;
+}
+.modal-header{
+  border: none;
+}
+.gorve{
+  background: white;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 200%;
+  transition: 0.5s;
+}
+.gorve:hover{
+  transform: rotate(360deg);
+  background: #F37121;
+  color: white !important;
+}
+.para{
+  text-align: center;
+  margin-top: 5%;
+}
+.para p{
+  
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  color: #f37121;
+}
+.para h3{
+  font-family: 'Orbitron', sans-serif;
+  
+  color: white;
+}
+.service h3{
+  color: white;
+}
+.schedule{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  margin: 5% auto;
+  padding: 5% 5%;
+}
+.schedule p a{
+  text-decoration: none;
+  color: #f37121;
+}
+table tr td{
+  color: white;
+}
+
+table{
+  width: 70%;
+  margin: 5% auto;
+  border: solid white;
+  height: 300px;
+  padding-left: 20%;
+  
+}
+table tr td{
+  border-right: solid white;
+  border-bottom: solid white;
+}
+
+/* .card{
+  background: none !important;
+  border: none !important ;
+}
+
+.card a{
+  text-decoration: none;
+} */

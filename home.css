@@ -1,0 +1,477 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Cantarell', sans-serif;
+  user-select: none;
+  outline: none;
+}
+body{
+  background: black;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #f37121;
+}
+body::-webkit-scrollbar-track {
+  background: none;
+}
+a{
+  text-decoration: none;
+}
+.card{
+  background: none !important;
+  border: none !important;
+}
+
+/* =====================================================navbar======================================================= */
+
+.navbar{
+  background: none;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-link:hover{
+  color: #f37121 !important;
+}
+.dropdown{
+  transition: 0.5s;
+}
+.dropdown:hover{
+  transform: 1.08;
+}
+.dropdown-item{
+  color: white !important;
+}
+.dropdown-item:hover{
+  color: #F37121 !important;
+  background: none;
+}
+.scrolled {
+  background-color: #000000;
+  box-shadow: 5px 10px 8px -4px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 5px 10px 8px -4px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 5px 10px 8px -4px rgba(0, 0, 0, 0.26);
+}
+
+/* =====================================================modal====================================================== */
+
+.modal{
+  background: rgba(0,0,0,0.8);
+}
+.modal-content{
+  background:  none !important;
+  margin-top: 10em;
+  border: none;
+}
+.modal .btn{
+  background:  #F37121;
+  font-size: 200%;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px 100px;
+}
+.modal h1{
+  font-weight: bolder; 
+  margin-left: 20%;
+  color: #F37121 !important;
+  border-bottom: none;
+}
+.modal-header{
+  border: none;
+}
+.gorve{
+  background: white;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 200%;
+  transition: 0.5s;
+}
+.gorve:hover{
+  transform: rotate(360deg);
+  background: #F37121;
+  color: white !important;
+}
+
+/* =====================================================carousel============================================= */
+
+.carousel img{
+  height: 600pt;
+}
+.carousel-caption{
+  top: 20%;
+  left: 0%;
+  width: 50%;
+}
+.carousel-caption p{
+  font-size: 200%;
+}
+.carousel-caption h1{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
+  font-size: 400%;
+  text-shadow: 5px 5px 50px black;
+}
+
+
+
+/* ==========================================================whychooseus===================================================== */
+
+.icon i:hover{
+  color: white !important;
+}
+
+
+
+/* ================================================================services============================================ */
+
+.slant{
+  margin: 3% 0%;
+}
+
+
+
+/* =====================================================================registration=================================== */
+
+.reg{
+  height: 300px;
+  background-image: url(media/pics/pic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.overlay{
+   background: rgba(0,0,0,0.5);
+}
+
+
+
+/* ==============================================================plans==================================================== */
+
+.skew{
+  border: 1px solid dimgray;
+  transition: 0.5s;
+  border-end-start-radius: 300px;
+  border-end-end-radius: 300px;
+}
+.skew:hover{
+  transform: 1.08;
+  border: 3px solid #f37121;
+}
+.skew h3{
+  color: white !important;
+}
+
+
+
+/* =========================================================images======================================================= */
+
+.images {
+  background-color: #000000;
+  color: #fff;
+  display: inline-block;
+  margin: 8px;
+  /* max-width: 500px;
+  min-width: 300px; */
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+  min-height: 300px;
+  text-align: center;
+  width: 100%;
+}
+
+.images * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.images,
+.images:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 32px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 500;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: 'Mentor';
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(5);
+}
+
+.images img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.images figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.images:hover:before,
+.images:hover:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.images:hover>img {
+  opacity: 0.7;
+}
+
+.images:hover figcaption {
+  opacity: 1;
+}
+.image1{
+  background-image: url(media/pics/pic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image2{
+  background-image: url(media/pics/onyourmark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image3{
+  background-image: url(media/pics/chest.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.image4{
+  background-image: url(media/pics/trainer-profile.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image5 {
+  background-image: url(media/pics/weightliftsit.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image6 {
+  background-image: url(media/pics/trainingboxing.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+
+/* ======================================================discount==================================================== */
+
+.discount{
+  background-image: url(media/pics/supergirl.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+}
+
+
+
+/* ==========================================================main========================================================== */
+
+.main{
+  height: 650pt;
+  background: url(media/pics/pexels-leon-ardho-1552106.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* .name{
+  width: 50%;
+  position: relative;
+  transform: translate(0%,0%);
+}
+.name h1{
+  text-shadow: 2px 2px 20px black;
+  transform: translate(0%,400%);
+  font-size: 350%;
+  font-family: 'Orbitron', sans-serif;
+}
+ */
+/* ================================================================topic================================================= */
+
+.topic{
+  height: 650pt;
+  background: url(media/pics/image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.topo h1{
+  text-shadow: 2px 2px 20px black;
+  transform: translate(0%,400%);
+  font-size: 350%;
+  font-family: 'Orbitron', sans-serif;
+}
+.mentor1{
+   background: url(media/pics/arina.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   border-radius: 5px;
+}
+.mentor2 {
+  background: url(media/pics/jkm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 5px;
+}
+.mentor3 {
+  background: url(media/pics/laroy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 5px;
+}
+.mentor4 {
+  background: url(media/pics/female.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 5px;
+}
+.mentor5 {
+  background: url(media/pics/leon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+.mentor6 {
+  background: url(media/pics/7137.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 5px;
+}
+
+
+.mentor {
+  background-color: #000000;
+  color: #fff;
+  display: inline-block;
+  margin: 8px;
+  /* max-width: 500px;
+  min-width: 300px; */
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+  min-height: 300px;
+  text-align: center;
+  width: 100%;
+}
+
+.mentor * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.mentor,
+.mentor:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 32px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 500;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: 'Mentor';
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(5);
+}
+
+.mentor img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.mentor figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mentor:hover:before,
+.mentor:hover:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.mentor:hover>img {
+  opacity: 0.7;
+}
+
+.mentor:hover figcaption {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+/* =============================================================media query=============================================== */
+
+/* @media screen and(max-width: 576px){
+  .topo h1{
+    text-shadow: 2px 2px 20px black;
+    transform: translate(0%,400%) !important;
+    font-size: 350%;
+    font-family: 'Orbitron', sans-serif;
+  }
+} */

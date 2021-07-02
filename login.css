@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* body */
+/* body{
+    background-color: #000000;
+    z-index: 1;
+} */
+.container-fluid{
+    background-color: #000000;
+}
+.row{
+    background-color: #000000;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+h5{
+    text-align:center;
+}
+
+
+
+
+
+@media screen and (max-width: 992){
+    #form{
+        padding: 50px;
+    }
+    #background-image{
+        background-image: none;
+    }
+
+    
+}

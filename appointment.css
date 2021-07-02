@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smoothness;
+}
+.container-fluid{
+    background-color: #000000;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+.card-header{
+    font-size:30px;
+    background-color:#F37121;
+}

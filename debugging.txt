@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/gymlogo.png" type="image/x-icon">
+    <title>Classes</title>
+    <link rel="stylesheet" href="classes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b30c33bf5f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- <!======================================================header============================================================= -->
+
+      <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="myNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="margin-right: 10%;" href="index.html"><img src="image/gymlogo.png" class="image-fluid" style="border-radius: 50%; border: 5px solid white; background: #f37121; max-width: 100px;" alt="may be an image of man and woman with muscles" />
+          <span style="color: white !important; font-family: 'Orbitron', sans-serif; font-size: 150%;">
+            FORT
+            </span>
+          </a>
+          <button class="navbar-toggler" style="background-color: white; border: 5px solid #f37121;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-center px-2">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item text-center px-2">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item text-center px-2">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item text-center px-2">
+                <a class="nav-link" href="#">CLASSES</a>
+              </li>
+              <li class="nav-item text-center px-2">
+                <a class="nav-link" href="#">OUR TEAM</a>
+              </li>
+              <li class="nav-item dropdown text-center px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu" style="background: #171717;" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-center py-2" href="#">BMI Calculate</a></li>
+                  <li><a class="dropdown-item text-center py-2" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item text-center py-2" href="#">Our Blog</a></li>
+                  <li><a class="dropdown-item text-center py-2" href="#">Appointments</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-center py-2" href="#">Fitness Websites ?</a></li>
+                </ul>
+              </li>
+              <li class="nav-item text-center px-2">
+                <a class="nav-link" href="#" tabindex="-1">CONTACT</a>
+              </li>
+            </ul>
+            <div class="d-flex my-3 justify-content-center align-items-center">
+              <a href="#">
+                <div class="" data-bs-target="#modal" data-bs-toggle="modal">
+                  <div class="btn"><i class="fa fa-search text-light px-4" style="border-right: 3px solid white;"></i>
+                </div>
+              </a>
+              <a href="#"><i class="px-2 fa fa-facebook text-light"></i></a>
+              <a href="#"><i class="px-2 fa fa-instagram text-light"></i></a>
+              <a href="#"><i class="px-2 fa fa-twitter text-light"></i></a>
+              <a href="#"><i class="px-2 fa fa-youtube text-light"></i></a>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+          </div>
+    <div class="modal fade" id="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Search here</h1>
+            <button type="button" class="gorve" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close" aria-hidden="true"></i></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="searchsee">
+                <div class="searchtag"><input type="text" class="text-light" style="background: none; border: none; width: 100%; outline: none;" placeholder="what are you looking for?">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn mx-auto" data-bs-dismiss="modal">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <!======================================================modal end=========================================================> -->
+     <!-- /* =====================================================modal====================================================== */ -->
+        <div class="row" id="background-image">
+
+            <div class="lay">
+              <h1 class="services">Classes</h1>
+              <p class="reverse"><a href="">Home ></a> Classes</p>
+            </div>
+
+          </div>
+
+
+
+          <!-- main -->
+         <div class="row py-3 px-4 pick">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="image/pic11.jpg" alt="" width="700" height="400"> <br>
+            <h1>BODYBUILDING</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam deleniti facilis voluptatum quae obcaecati quos tenetur tempore, consectetur est fugiat?</p>
+            <h1>Trainer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere atque quam labore accusamus dignissimos laborum cum placeat amet ea unde.</p>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="image/pic4.jpg" alt="" width="200" height="400">
+
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1>Chloe Rachael</h1>
+                <p>GYM TRAINER</p>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 pool">
+            <h1>CATEGORIES</h1>
+            <p><span style="margin-right: 32%;">Yoga</span> 12</p>
+            <p><span style="margin-right: 30%;">Runing</span>                    32</p>
+            <p><span style="margin-right: 30%;">Weight</span>                    86</p>
+            <p><span style="margin-right: 32%;">Cardio</span>                    25</p>
+            <p><span style="margin-right: 25%;">Body building</span>             36</p>
+            <p><span style="margin-right: 30%;">Nutrition</span>                15</p>
+
+          </div>
+        </div>
+<div class="row" id="background-image">
+
+          <div class="lay">
+            <h1 class="services">Classes</h1>
+            <p class="reverse"><a href="">Home ></a> Classes</p>
+          </div>
+
+        </div>
+
